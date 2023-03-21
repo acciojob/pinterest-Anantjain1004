@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+  .hero {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      img {
+        width: 900px;
+      }
+      .hero .col2 {
+        position: relative;
+        justify-self: center;
+        align-self: center;
+      }
+      button {
+        position: absolute;
+        left: 54px;
+        background-color: orangered;
+        color: white;
+        padding: 7px;
+        top: 156px;
+        border: none;
+      }
+
+      .para {
+        position: absolute;
+        top: 95px;
+        left: -9px;
+        font-size: 13px;
+      }
